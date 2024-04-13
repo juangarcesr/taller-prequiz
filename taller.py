@@ -26,3 +26,24 @@ def cargar_mar(url):
 def cargar_csv(url):
     if url.endwith(".csv"):
         return pd.read_csv(url)
+#7
+def suma(a, axis=None):
+    return np.sum(a, axis=axis)
+
+def resta(a, axis=None):
+    return np.subtract.reduce(a, axis=axis)
+
+def multiplicacion(a, axis=None):
+    return np.prod(a, axis=axis)
+
+def division(a, axis=None):
+    return np.divide.reduce(a, axis=axis)
+
+def logaritmo(a):
+    return np.log(a)
+
+def promedio(a, axis=None):
+    return np.mean(a, axis=axis)
+
+def desviacion_estandar(a, axis=None):
+    return np.std(a, axis=axis)
