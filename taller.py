@@ -15,3 +15,7 @@ print("bytes",matrizc.nbytes)
 #4
 x=matrizc.reshape(30,400)
 print("la nueva dimension es: ",x.ndim)
+#5
+def data(matrizs):
+    return pd.DataFrame(matrizs)
+print(data(x))
