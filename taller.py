@@ -19,3 +19,10 @@ print("la nueva dimension es: ",x.ndim)
 def data(matrizs):
     return pd.DataFrame(matrizs)
 print(data(x))
+#6
+def cargar_mar(url):
+    if url.endwith(".mat"):
+        return sio.loadmat(url)
+def cargar_csv(url):
+    if url.endwith(".csv"):
+        return pd.read_csv(url)
