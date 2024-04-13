@@ -6,3 +6,9 @@ import scipy as sio
 matriz=np.random.randint(1200000,size=(30,40,10,1000))
 #2
 matrizc=matriz[:,:,:,2].copy()
+#3
+print("forma",matrizc.shape)
+print("size",matrizc.size)
+print("dimension",matrizc.ndim)
+print("tipo",matrizc.dtype)
+print("bytes",matrizc.nbytes)
