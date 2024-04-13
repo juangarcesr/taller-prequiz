@@ -12,3 +12,6 @@ print("size",matrizc.size)
 print("dimension",matrizc.ndim)
 print("tipo",matrizc.dtype)
 print("bytes",matrizc.nbytes)
+#4
+x=matrizc.reshape(30,400)
+print("la nueva dimension es: ",x.ndim)
